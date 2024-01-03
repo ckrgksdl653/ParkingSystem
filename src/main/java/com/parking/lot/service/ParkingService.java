@@ -1,10 +1,10 @@
 package com.parking.lot.service;
 
+import com.parking.lot.dto.ParkingLotResponse;
+import com.parking.lot.entity.ParkingInfo;
+import com.parking.lot.repository.ParkingInfoRepository;
+import com.parking.lot.repository.ParkingSpaceRepository;
 import lombok.RequiredArgsConstructor;
-import org.parking.parkinglot.dto.ParkingLotResponse;
-import org.parking.parkinglot.entity.ParkingInfo;
-import org.parking.parkinglot.repository.ParkingInfoRepository;
-import org.parking.parkinglot.repository.ParkingSpaceRepository;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;

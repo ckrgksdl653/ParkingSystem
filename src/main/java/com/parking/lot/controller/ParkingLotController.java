@@ -1,10 +1,10 @@
 package com.parking.lot.controller;
 
+import com.parking.lot.dto.ParkingLotRequest;
+import com.parking.lot.dto.ParkingLotResponse;
+import com.parking.lot.service.EntranceService;
+import com.parking.lot.service.ParkingService;
 import lombok.RequiredArgsConstructor;
-import org.parking.parkinglot.dto.ParkingLotRequest;
-import org.parking.parkinglot.dto.ParkingLotResponse;
-import org.parking.parkinglot.service.EntranceService;
-import org.parking.parkinglot.service.ParkingService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
