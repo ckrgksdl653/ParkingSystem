@@ -10,7 +10,7 @@ public class PaymentController {
 
     @GetMapping("/payment/fee/{carNumber}")
     public long getParkingFee(@PathVariable Long carNumber) {
-
+        
     }
 
     @PostMapping("/payment/card")
